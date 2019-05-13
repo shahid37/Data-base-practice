@@ -91,4 +91,6 @@ VALUES (
 );
 SELECT mov_title, mov_year
 FROM movie;
-
+select mov_year
+from movie
+where mov_title = 'happy new year';
